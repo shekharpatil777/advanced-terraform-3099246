@@ -5,7 +5,7 @@ provider "google" {
   zone    = "us-central1-a"
 }
 
-### NETWORK
+#### NETWORK
 data "google_compute_network" "default" {
   name                    = "default"
 }
